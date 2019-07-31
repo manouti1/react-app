@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FreightHub Frontend Coding Challenge
 
-## Available Scripts
+Welcome to the FreightHub frontend coding challenge! Please read the following instructions carefully.
 
-In the project directory, you can run:
+**Your goal is to set up an application which enables the user to view and manage shipments.**
 
-### `npm start`
+## Business need
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The main goal is for the user to check the shipments at a glance. This allows users to take faster decisions and plan ahead of time.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Providing information to the customer increases transparency and reduces communication issues.
 
-### `npm test`
+## Use cases
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The user shall be able to see shipments in pages of 20 elements per page.
+- The user shall be able to search for shipment id and sort by different fields.
+- The user shall be able to see the shipment information on a shipment details page.
+- The user shall be able to update the shipment name.
 
-### `npm run build`
+The interactions should not refresh the page.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technology requirements
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+You can use any libraries, task runners and build processors. **React** and **JavaScript** are the only hard requirements. ES6 and TypeScript are highly encouraged, as well as MST and MobX if needed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Submissions using view libraries/frameworks other than React will not be accepted.**
 
-### `npm run eject`
+## Criteria
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The full criteria for evaluating the coding challenge can be found [here](./Criteria.md).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Server-side
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The boilerplate includes a small service for data fetching. The file `db.json` includes all the necessary data to achieve the goal. Please follow the steps below to start the server:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+yarn or npm install .
+yarn start or npm start
+```
 
-## Learn More
+Check [json-server](https://github.com/typicode/json-server) for more information.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Please make sure that there are scripts to start both the server and the client.**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deliverables
 
-### Code Splitting
+- Clone this repository.
+- Complete your project as described above within your local repository.
+- Ensure everything you want to commit is committed.
+- Create a git bundle: `git bundle create your_name.bundle --all`
+- Email the bundle file to your point of contact.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+**In order to be fair to all candidates, please refrain from sharing your solution on public repository hosting services such as GitHub and Bitbucket.**
 
-### Analyzing the Bundle Size
+## Time limit
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+There is no hard time limit for this coding challenge. However, we believe that 3-4 hours is sufficient for the must-have parts of the application. While we appreciate all the effort put into the challenge, we also do not want to take up too much of your time. Our advice is to focus on making sure that the application works properly and has some tests before moving on to secondary objectives. Happy coding!
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Good luck,
+The FreightHub Team

@@ -1,0 +1,35 @@
+{
+  "shipments": [
+    {
+      "name": "T-shirt from Shanghai to Hamburg",
+      "id": "S1000"
+    },
+    {
+      "name": "New spring collection1",
+      "id": "S1001"
+    },
+    {
+      "id": "S1002",
+      "name": "PO89634, PO27X",
+      "cargo": [
+        {
+          "type": "Bikes model 27X",
+          "description": "100 Bikes model 27X",
+          "volume": "100"
+        }
+      ],
+      "mode": "air",
+      "type": "LCL",
+      "destination": "Saarbrücker Str. 38, 10405 Berlin",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    }
+  ]
+}
